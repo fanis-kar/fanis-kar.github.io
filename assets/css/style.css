@@ -728,6 +728,16 @@ section {
   background-color: #149ddd;
 }
 
+
+/* Keep the Contact heading aligned with the other sections on desktop.
+   The extra section height allows the browser to scroll fully to #contact
+   even when the content near the end of the page is shorter than the viewport. */
+@media (min-width: 1200px) {
+  .contact {
+    min-height: 100vh;
+  }
+}
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
