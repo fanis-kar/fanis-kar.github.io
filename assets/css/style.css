@@ -986,3 +986,59 @@ section {
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
+
+/*--------------------------------------------------------------
+# Certifications
+--------------------------------------------------------------*/
+.certifications .certification-item {
+  margin-bottom: 28px;
+}
+.certifications .certification-heading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 52px;
+}
+.certifications .certification-badge {
+  width: 44px;
+  height: 44px;
+  flex: 0 0 44px;
+  object-fit: contain;
+}
+.certifications .title {
+  margin: 0;
+  color: #173b6c;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.certifications .certification-credential {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 10px 0 0 56px;
+}
+.certifications .description {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+.certifications .certification-link {
+  flex: 0 0 auto;
+  color: #149ddd;
+  font-size: 18px;
+  line-height: 1;
+}
+.certifications .certification-link:hover {
+  color: #37b3ed;
+}
+@media (max-width: 575px) {
+  .certifications .title {
+    font-size: 15px;
+  }
+  .certifications .certification-credential {
+    margin-left: 0;
+  }
+}
